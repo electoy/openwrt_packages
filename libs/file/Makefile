@@ -12,7 +12,7 @@ PKG_VERSION:=5.25
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=ftp://ftp.astron.com/pub/file/
+PKG_SOURCE_URL:=http://download.openpkg.org/components/cache/file/
 PKG_MD5SUM:=e6a972d4e10d9e76407a432f4a63cd4c
 
 PKG_LICENSE:=BSD-2c
@@ -26,7 +26,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/file/Default
   TITLE:=File type determination
-  URL:=ftp://ftp.astron.com/pub/file/
+  URL:=http://download.openpkg.org/components/cache/file/
   MAINTAINER:=Luka Perkov <luka@openwrt.org>
 endef
 
